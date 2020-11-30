@@ -1,0 +1,72 @@
+@import url('https://fonts.googleapis.com/css2?family=Vast+Shadow&display=swap');
+
+* {
+  padding: 0;
+  margin: 0;
+}
+
+header .header{
+  display: flex;
+	align-items: center;
+	justify-content: space-around;
+	flex-wrap: nowrap;
+}
+
+.header {
+  width: 1200px;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  /* background: url("/images/american-flag-stars-background-1024x768.jpg") repeat; */
+  background-size: 80px;
+}
+
+.mainLogo{
+  font-family: 'Vast Shadow', cursive;
+  background: url(images/american-flag-stars-background-1024x768.jpg);
+    background-size: 30px;
+    color: #fff;
+    -webkit-text-fill-color: transparent;
+    -webkit-background-clip: text;
+  font-size: 5vw;
+  font-weight: bold;
+  text-align: center;
+  align-items: center;
+  -webkit-text-stroke: 1px black;
+}
+
+.trumpImg {
+  width: 25rem;
+}
+
+main {
+  width: 1200px;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  background: url(images/donald-trump-1547274_1280.jpg);
+  background-size: 200px;
+  height: 400px;
+  display: flex;
+  justify-content: center;
+
+}
+
+#generator {
+  padding: 10px;
+  background: white;
+  width: 800px;
+  height: 200px;
+  margin-top: 20px;
+}
+
+
+
+footer {
+  width: 1200px;
+  max-width: 100%;
+  padding: 20px;
+  margin: 0 auto;
+  background-color: black;
+  color: white;
+}
