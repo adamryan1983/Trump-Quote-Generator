@@ -52,16 +52,6 @@ main {
 
 }
 
-#generator {
-  padding: 10px;
-  background: white;
-  width: 800px;
-  height: 200px;
-  margin-top: 20px;
-}
-
-
-
 footer {
   width: 1200px;
   max-width: 100%;
